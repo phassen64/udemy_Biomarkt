@@ -350,7 +350,8 @@ MigrationBackup/
 .ionide/
 ProNatur Biomarkt GmbH/bin/Debug/ProNatur Biomarkt GmbH.exe
 ProNatur Biomarkt GmbH/bin/Debug/ProNatur Biomarkt GmbH.pdb
-ProNatur Biomarkt GmbH/obj/Debug/ProNatur Biomarkt GmbH.csproj.FileListAbsolute.txt
 ProNatur Biomarkt GmbH/obj/Debug/ProNatur Biomarkt GmbH.csproj.GenerateResource.cache
-ProNatur Biomarkt GmbH/obj/Debug/ProNatur Biomarkt GmbH.exe
-ProNatur Biomarkt GmbH/obj/Debug/ProNatur Biomarkt GmbH.pdb
+ProNatur Biomarkt GmbH/obj/Debug/ProNatur Biomarkt GmbH.csproj.CoreCompileInputs.cache
+ProNatur Biomarkt GmbH/obj/Debug/ProNatur Biomarkt GmbH.csproj.AssemblyReference.cache
+ProNatur Biomarkt GmbH/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ProNatur Biomarkt GmbH/Form_main.resx

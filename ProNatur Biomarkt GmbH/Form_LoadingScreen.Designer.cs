@@ -1,7 +1,7 @@
 ﻿
 namespace ProNatur_Biomarkt_GmbH
 {
-    partial class Form_LoadingScreen
+    partial class Form_loadingScreen
     {
         /// <summary>
         /// Erforderliche Designervariable.
@@ -30,7 +30,7 @@ namespace ProNatur_Biomarkt_GmbH
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_LoadingScreen));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_loadingScreen));
             this.progressBar_main = new System.Windows.Forms.ProgressBar();
             this.label_loading = new System.Windows.Forms.Label();
             this.label_pct = new System.Windows.Forms.Label();

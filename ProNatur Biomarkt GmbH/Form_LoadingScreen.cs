@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Windows.Forms;
 
-// connected with git
+// connected with git 1
 namespace ProNatur_Biomarkt_GmbH
 {
-    public partial class Form_LoadingScreen : Form
+    public partial class Form_loadingScreen : Form
     {
         const string sFile = "peter";
         private bool bForm_load = false;
         private int iLoad = 0;
-        public Form_LoadingScreen()
+        public Form_loadingScreen()
         {
             InitializeComponent();
         }
@@ -38,6 +38,13 @@ namespace ProNatur_Biomarkt_GmbH
             {
                 timer_loading.Stop();
                 label_loading.Text = "finished!";
+        
+                // verstecke dieses Fenster                     
+                this.Hide();
+
+                // erzeuge neues Fenster und zeige dieses an.
+                Form_main frmMain = new Form_main();
+                frmMain.Show();
             }
             else
             {

@@ -28,3 +28,4 @@ C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.c
 C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.csproj.CoreCompileInputs.cache
 C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.exe
 C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.pdb
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur_Biomarkt_GmbH.Form_main.resources
