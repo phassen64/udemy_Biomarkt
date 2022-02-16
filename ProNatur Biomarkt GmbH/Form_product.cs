@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+// Produkt Eingabe vornehmen
 namespace ProNatur_Biomarkt_GmbH
 {
     public partial class Form_product : Form
