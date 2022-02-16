@@ -18,3 +18,13 @@ C:\public\my\cmd\cs\Udemy\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt Gmb
 C:\public\my\cmd\cs\Udemy\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.csproj.CoreCompileInputs.cache
 C:\public\my\cmd\cs\Udemy\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.exe
 C:\public\my\cmd\cs\Udemy\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.pdb
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\bin\Debug\ProNatur Biomarkt GmbH.exe.config
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\bin\Debug\ProNatur Biomarkt GmbH.exe
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\bin\Debug\ProNatur Biomarkt GmbH.pdb
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.csproj.AssemblyReference.cache
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur_Biomarkt_GmbH.Form_LoadingScreen.resources
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur_Biomarkt_GmbH.Properties.Resources.resources
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.csproj.GenerateResource.cache
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.csproj.CoreCompileInputs.cache
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.exe
+C:\public\git\Biomarkt\ProNatur Biomarkt GmbH\obj\Debug\ProNatur Biomarkt GmbH.pdb
