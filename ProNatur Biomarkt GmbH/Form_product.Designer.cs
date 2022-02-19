@@ -156,12 +156,12 @@ namespace ProNatur_Biomarkt_GmbH
             this.button_speichern.BackColor = System.Drawing.SystemColors.ControlText;
             this.button_speichern.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_speichern.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_speichern.ForeColor = System.Drawing.Color.Chocolate;
-            this.button_speichern.Location = new System.Drawing.Point(218, 154);
+            this.button_speichern.ForeColor = System.Drawing.Color.Green;
+            this.button_speichern.Location = new System.Drawing.Point(66, 154);
             this.button_speichern.Name = "button_speichern";
-            this.button_speichern.Size = new System.Drawing.Size(195, 30);
+            this.button_speichern.Size = new System.Drawing.Size(115, 30);
             this.button_speichern.TabIndex = 10;
-            this.button_speichern.Text = "Speichern";
+            this.button_speichern.Text = "ADD";
             this.button_speichern.UseVisualStyleBackColor = false;
             this.button_speichern.Click += new System.EventHandler(this.button_speichern_Click);
             // 
@@ -171,11 +171,11 @@ namespace ProNatur_Biomarkt_GmbH
             this.button_loeschen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_loeschen.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_loeschen.ForeColor = System.Drawing.Color.Red;
-            this.button_loeschen.Location = new System.Drawing.Point(419, 154);
+            this.button_loeschen.Location = new System.Drawing.Point(318, 154);
             this.button_loeschen.Name = "button_loeschen";
-            this.button_loeschen.Size = new System.Drawing.Size(100, 30);
+            this.button_loeschen.Size = new System.Drawing.Size(115, 30);
             this.button_loeschen.TabIndex = 8;
-            this.button_loeschen.Text = "Löschen";
+            this.button_loeschen.Text = "DELETE";
             this.button_loeschen.UseVisualStyleBackColor = false;
             this.button_loeschen.Click += new System.EventHandler(this.button_loeschen_Click);
             // 
@@ -189,7 +189,7 @@ namespace ProNatur_Biomarkt_GmbH
             this.button_leeren.Name = "button_leeren";
             this.button_leeren.Size = new System.Drawing.Size(100, 30);
             this.button_leeren.TabIndex = 7;
-            this.button_leeren.Text = "RESET";
+            this.button_leeren.Text = "CLEAR";
             this.button_leeren.UseVisualStyleBackColor = false;
             this.button_leeren.Click += new System.EventHandler(this.button_leeren_Click);
             // 
@@ -198,23 +198,37 @@ namespace ProNatur_Biomarkt_GmbH
             this.button_bearbeiten.BackColor = System.Drawing.SystemColors.ControlText;
             this.button_bearbeiten.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_bearbeiten.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_bearbeiten.ForeColor = System.Drawing.Color.Green;
-            this.button_bearbeiten.Location = new System.Drawing.Point(112, 154);
+            this.button_bearbeiten.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button_bearbeiten.Location = new System.Drawing.Point(192, 154);
             this.button_bearbeiten.Name = "button_bearbeiten";
-            this.button_bearbeiten.Size = new System.Drawing.Size(100, 30);
+            this.button_bearbeiten.Size = new System.Drawing.Size(115, 30);
             this.button_bearbeiten.TabIndex = 5;
-            this.button_bearbeiten.Text = "Bearbeiten";
+            this.button_bearbeiten.Text = "CHANGE";
             this.button_bearbeiten.UseVisualStyleBackColor = false;
             this.button_bearbeiten.Click += new System.EventHandler(this.button_bearbeiten_Click);
             // 
             // dataGridView_produkt
             // 
+            this.dataGridView_produkt.AllowUserToAddRows = false;
+            this.dataGridView_produkt.AllowUserToDeleteRows = false;
+            this.dataGridView_produkt.AllowUserToResizeColumns = false;
+            this.dataGridView_produkt.AllowUserToResizeRows = false;
+            this.dataGridView_produkt.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_produkt.BackgroundColor = System.Drawing.Color.Black;
             this.dataGridView_produkt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_produkt.Enabled = false;
+            this.dataGridView_produkt.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.dataGridView_produkt.Location = new System.Drawing.Point(32, 206);
+            this.dataGridView_produkt.MultiSelect = false;
             this.dataGridView_produkt.Name = "dataGridView_produkt";
+            this.dataGridView_produkt.ReadOnly = true;
+            this.dataGridView_produkt.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.dataGridView_produkt.RowHeadersVisible = false;
+            this.dataGridView_produkt.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.Navy;
+            this.dataGridView_produkt.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.Yellow;
+            this.dataGridView_produkt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView_produkt.Size = new System.Drawing.Size(743, 223);
             this.dataGridView_produkt.TabIndex = 11;
+            this.dataGridView_produkt.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_produkt_CellContentClick);
             // 
             // statusStrip_produkt
             // 

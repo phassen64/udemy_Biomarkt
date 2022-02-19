@@ -16,12 +16,13 @@ namespace ProNatur_Biomarkt_GmbH
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            
+
             //  * nicht mit loadingScreen beginnen
             //  Application.Run(new Form_loadingScreen());
-            
-            //  * sondern hiermit
-            Application.Run(new Form_main());
+            //  Application.Run(new Form_main());
+
+            //  * sondern hiermitn
+            Application.Run(new Form_product());
         }
     }
 }
